@@ -65,6 +65,8 @@ When you publish your application to the store, the .NET Native compilation happ
 4. Click on **Show packages** on the top-right corner for the **Submission** (version) you want symbols for.
 5. Locate the package for the version you need symbols for, and click on links for all the supported architectures to download all symbols (such as the **Download Windows 10 symbol file (x64)** link).
 
+**NOTE:** Your application must declare a dependency on any version of .NET Native to generate debug symbols.
+
 #### App Center Portal
 [!INCLUDE [symbol upload ui](includes/symbol-upload-ui.md)]
 
